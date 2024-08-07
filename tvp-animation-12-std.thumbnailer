@@ -1,0 +1,3 @@
+[Thumbnailer Entry]
+Exec=/app/tvp-animation-12-std/tvp-thumbnailer %s %i %o
+MimeType=application/tvp-project;application/tvpaint-project;application/mirage-project;application/aura-project;application/dip-file;application/deep-file;

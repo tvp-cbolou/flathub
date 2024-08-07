@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.tvpaint.tvpaint-animation12-std</id>
+  <name>TVPaint Animation 12</name>
+  <developer id="com.tvpaint">
+    <name>TVPaint Developpement</name>
+  </developer>
+  <summary>TVPaint Animation ... Drawings Software !</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <description>
+    <p>TVP Animation Professional Edition is a complete package for 2D drawing, painting and animation and for video.
+    This package is dedicated to the professional who wants to do all their stuff with only one software.
+    This Edition embed all of TVPaint Developpement's know-how dedicated to both animation and video markets!"</p>
+  </description>
+  <launchable type="desktop-id">com.tvpaint.tvpaint-animation12-std.desktop</launchable>
+  <categories>
+    <category>Graphics</category>
+  </categories>
+  <url type="homepage">https://tvpaint.com</url>
+  <url type="faq">https://tvpaint.com/frequently-asked-questions</url>
+  <url type="contact">https://tvpaint.odoo.com/contactus</url>
+  <screenshots>
+     <screenshot type="default">
+       <image type="source">https://www.tvpaint.com/image/main_window.png</image>
+       <caption>Main Window application</caption>
+     </screenshot>
+     <screenshot type="default">
+       <image type="source">https://www.tvpaint.com/image/camera_view.png</image>
+       <caption>Camera view</caption>
+     </screenshot>
+     <screenshot type="default">
+       <image type="source">https://www.tvpaint.com/image/rigging_view.png</image>
+       <caption>Rigging view</caption>
+     </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="12.0.1" date="2024-8-7"/>
+  </releases>
+</component>
