@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=TVPaint Animation 12 Pro
+Comment=TVPaint Animation ... Drawings Software !
+Comment[fr]=TVPaint Animation ... Logiciel de Dessin !
+Exec=com.tvpaint.tvpaint-animation12-pro %u
+Path=/usr/bin
+Icon=com.tvpaint.tvpaint-animation12-pro
+Type=Application
+Categories=Graphics;
+StartupWMClass=tvp-animation-12-pro
+StartupNotify=true
+MimeType=application/tvp-project;application/mirage-project;application/aura-project;application/tvpaint-project;application/dip-file;application/deep-file;application/tvp-script;video/3gpp;video/3gpp2;video/annodex;video/dv;video/isivideo;video/mp2t;video/mp4;video/mpeg;video/ogg;video/quicktime;video/vivo;video/vnd.rn-realvideo;video/wavelet;video/webm;video/x-anim;video/x-flic;video/x-flv;video/x-javafx;video/x-matroska;video/x-mng;video/x-ms-asf;video/x-ms-wmp;video/x-ms-wmv;video/x-msvideo;video/x-nsv;video/x-ogm+ogg;video/x-sgi-movie;video/x-theora+ogg;image/bmp;image/cgm;image/dpx;image/fax-g3;image/fits;image/g3fax;image/gif;image/ief;image/jp2;image/jpeg;image/openraster;image/png;image/rle;image/svg+xml;image/svg+xml-compressed;image/tiff;image/vnd.adobe.photoshop;image/vnd.djvu;image/vnd.dwg;image/vnd.dxf;image/vnd.microsoft.icon;image/vnd.ms-modi;image/vnd.rn-realpix;image/x-3ds;image/x-adobe-dng;image/x-applix-graphics;image/x-bzeps;image/x-canon-cr2;image/x-canon-crw;image/x-cmu-raster;image/x-compressed-xcf;image/x-dcraw;image/x-dds;image/x-dib;image/x-emf;image/x-eps;image/x-exr;image/x-fpx;image/x-fuji-raf;image/x-gzeps;image/x-hdr;image/x-icns;image/x-iff;image/x-ilbm;image/x-jng;image/x-kde-raw;image/x-kodak-dcr;image/x-kodak-k25;image/x-kodak-kdc;image/x-lwo;image/x-lws;image/x-macpaint;image/x-minolta-mrw;image/x-msod;image/x-niff;image/x-nikon-nef;image/x-olympus-orf;image/x-panasonic-raw;image/x-panasonic-raw2;image/x-pcx;image/x-pentax-pef;image/x-photo-cd;image/x-pic;image/x-pict;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-quicktime;image/x-rgb;image/x-sgi;image/x-sigma-x3f;image/x-skencil;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sun-raster;image/xtga;image/x-win-bitmap;image/x-wmf;image/x-xbitmap;image/x-xcf;image/x-xcursor;image/x-xfig;image/x-xpixmap;image/x-xwindowdump;

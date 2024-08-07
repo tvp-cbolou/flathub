@@ -1,0 +1,52 @@
+{
+ "name": "tvp-animation-12-pro",
+  "buildsystem": "simple",
+  "build-options": {
+    "no-debuginfo": true,
+    "no-debuginfo-compression": true
+  },
+  "build-commands": [
+   "install -Dm755 tvpaint.sh /app/bin/com.tvpaint.tvpaint-animation12-pro",
+   "mv tvp-animation-12-pro /app/tvp-animation-12-pro",
+   "install -Dm755 /app/tvp-animation-12-pro/NoWibuLicenceMsgUs -t /app/bin/",
+   "install -Dm644 /app/tvp-animation-12-pro/icons/icon.svg /app/share/icons/hicolor/scalable/apps/com.tvpaint.tvpaint-animation12-pro.svg",
+   "install -Dm644 /app/tvp-animation-12-pro/icons/DocIcon128x128.png /app/share/icons/hicolor/128x128/mimetypes/com.tvpaint.tvpaint-animation12-pro-file.png",
+   "install -Dm644 tvp-animation-12-pro.desktop /app/share/applications/com.tvpaint.tvpaint-animation12-pro.desktop",
+   "install -Dm644 com.tvpaint.tvpaint-animation12-pro.metainfo.xml -t /app/share/metainfo/",
+   "install -Dm644 tvp-animation-12-pro.xml /app/share/mime/packages/com.tvpaint.tvpaint-animation12-pro.xml",
+   "install -Dm644 tvp-animation-12-pro.thumbnailer /app/share/thumbnailers/com.tvpaint.tvpaint-animation12-pro.thumbnailer",
+   "install -Dm644 copyright -t /app/share/doc/"
+  ],
+  "sources": [
+    {
+      "type": "archive",
+      "url": "https://www.tvpaint.com/download/tvp-animation-12-pro.tar.gz",
+      "sha256": "db23fab2297287a3252e29aac9300a92cb50fa0f93a2c8c0ed5a84195cfac483",
+      "only-arches": [ "x86_64" ]
+    },
+    {
+      "type": "file",
+      "path": "tvpaint.sh"
+    },
+    {
+      "type": "file",
+      "path": "tvp-animation-12-pro.desktop"
+    },
+    {
+      "type": "file",
+      "path": "com.tvpaint.tvpaint-animation12-pro.metainfo.xml"
+    },
+    {
+      "type": "file",
+      "path": "tvp-animation-12-pro.xml"
+    },
+    {
+      "type": "file",
+      "path": "tvp-animation-12-pro.thumbnailer"
+    },
+    {
+      "type": "file",
+      "path": "copyright"
+    }
+  ]
+}

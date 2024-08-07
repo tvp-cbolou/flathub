@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/tvp-project">
+    <comment>TVPaint Animation Project</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.tvpp"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/mirage-project">
+    <comment>Mirage Project</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.mir"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/aura-project">
+    <comment>Aura Project</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.aur"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/tvpaint-project">
+    <comment>TVPaint Animation Project</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.tvp"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/dip-file">
+    <comment>Dip File</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.dip"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/deep-file">
+    <comment>Deep File</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.deep"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+  <mime-type type="application/tvp-script">
+    <comment>TVPaint Animation Script</comment>
+    <icon name="tvp-animation-12-pro-file"/>
+    <glob pattern="*.tvpx"/>
+    <sub-class-of type="application/octet-stream"/>
+  </mime-type>
+</mime-info>

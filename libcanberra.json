@@ -1,0 +1,32 @@
+{
+  "name": "libcanberra",
+  "buildsystem": "autotools",
+  "build-options": {
+    "cflags": "-Wno-error"
+  },
+  "config-opts": [
+    "--silent",
+    "--enable-silent-rules",
+    "--disable-lynx",
+    "--disable-gtk-doc-html"
+  ],
+  "cleanup": [
+    "/bin",
+    "/lib/debug",
+    "/lib/gnome-settings-daemon-3.0",
+    "/lib/gtk-3.0",
+    "/lib/libcanberra-0.30",
+    "/lib/pkgconfig",
+    "/lib/*.la",
+    "/lib/*gtk3*",
+    "/include",
+    "/share"
+  ],
+  "sources": [
+    {
+      "type": "archive",
+      "url": "http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz",
+      "sha256": "c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72"
+    }
+  ]
+}
